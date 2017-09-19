@@ -5,16 +5,28 @@ include(Package_Definition NO_POLICY_SCOPE)
 
 PROJECT(eigen-cdd)
 
-declare_PID_Package(	AUTHOR 		vsamy
-			 ADDRESS git@github.com:vsamy/eigen-cdd.git
-	 YEAR 		2017 
-			LICENSE 	CeCILL
-			DESCRIPTION 	TODO: input a short description of package eigen-cdd utility here
+declare_PID_Package(	
+			AUTHOR 		vsamy
+			INSTITUTION	LIRMM
+			MAIL		vincent.samy@lirmm.fr
+			YEAR 		2017 
+			LICENSE 	CeCILL-C
+			DESCRIPTION "Small Eigen Wrapper of cdd. Based on Fukuda's library named [cdd](https://www.inf.ethz.ch/personal/fukudak/cdd_home)"
 		)
 
 set_PID_Package_Version(0 1)
 
 #now finding packages
+find_package(eigen 3.2.9 REQUIRED)
+declare_PID_Package_Dependency(PACKAGE eigen EXTERNAL VERSION 3.2.9)
+
+find_package(cdd 0.94 REQUIRED)
+declare_PID_Package_Dependency(PACKAGE cdd NATIVE VERSION 0.94)
+
+if(BUILD_AND_RUN_TESTS)
+	find_package(boost 1.64 REQUIRED)
+	declare_PID_Package_Dependency(PACKAGE boost EXTERNAL VERSION 1.64)
+endif()
 
 build_PID_Package()
 
