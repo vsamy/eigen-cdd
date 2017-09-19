@@ -19,7 +19,7 @@ declare_PID_Package(
 set_PID_Package_Version(0 2 0)
 
 #now finding packages
-declare_PID_Package_Dependency(PACKAGE eigen EXTERNAL VERSION 3.2.9)
+declare_PID_Package_Dependency(PACKAGE eigen EXTERNAL VERSION 3.3.4)
 declare_PID_Package_Dependency(PACKAGE cdd NATIVE VERSION 0.94)
 
 if(BUILD_AND_RUN_TESTS)
