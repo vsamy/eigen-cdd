@@ -6,7 +6,8 @@ include(Package_Definition NO_POLICY_SCOPE)
 PROJECT(eigen-cdd)
 
 declare_PID_Package(	AUTHOR 		vsamy
-			YEAR 		2017 
+			 ADDRESS git@github.com:vsamy/eigen-cdd.git
+	 YEAR 		2017 
 			LICENSE 	CeCILL
 			DESCRIPTION 	TODO: input a short description of package eigen-cdd utility here
 		)
