@@ -2,7 +2,7 @@ declare_PID_Component(
     SHARED_LIB
     NAME eigen-cdd
     DIRECTORY eigen-cdd
-    EXPORTED COMPILER_OPTIONS -std=c++11
+    CXX_STANDARD 11
 )
 
 declare_PID_Component_Dependency(

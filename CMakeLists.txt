@@ -7,6 +7,8 @@ PROJECT(eigen-cdd)
 
 declare_PID_Package(	
 			AUTHOR 		vsamy
+			ADDRESS 	git@github.com:vsamy/eigen-cdd.git
+			YEAR 		2017 
 			INSTITUTION	LIRMM
 			MAIL		vincent.samy@lirmm.fr
 			YEAR 		2017 

@@ -3,7 +3,7 @@ Software license for the software named : eigen-cdd
 
 Software description : Small Eigen Wrapper of cdd. Based on Fukuda's library named [cdd](https://www.inf.ethz.ch/personal/fukudak/cdd_home)
 
-Copyright (C) 2017  vsamy (LIRMM)
+Copyright (C) 20172017  vsamy (LIRMM)
 
 This software is free software: you can redistribute it and/or modify it under the terms of the CeCILL-C license as published by
  the CEA CNRS INRIA, either version 1 of the License, or (at your option) any later version. This software
