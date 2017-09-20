@@ -16,7 +16,7 @@ declare_PID_Package(
 			DESCRIPTION "Small Eigen Wrapper of cdd. Based on Fukuda's library named [cdd](https://www.inf.ethz.ch/personal/fukudak/cdd_home)"
 )
 
-set_PID_Package_Version(0 3 0)
+set_PID_Package_Version(0 2 1)
 
 #now finding packages
 declare_PID_Package_Dependency(PACKAGE eigen EXTERNAL VERSION 3.3.4)

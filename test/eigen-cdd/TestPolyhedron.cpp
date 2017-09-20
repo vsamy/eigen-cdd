@@ -7,7 +7,7 @@
 #include <iostream>
 #include <utility>
 
-#include "Polyhedron.h"
+#include "eigen-cdd/Polyhedron.h"
 
 struct Rep {
     Rep()

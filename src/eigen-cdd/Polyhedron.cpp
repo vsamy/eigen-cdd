@@ -17,7 +17,7 @@
 *       of the CeCILL licenses family (http://www.cecill.info/index.en.html).
 */
 
-#include "Polyhedron.h"
+#include "eigen-cdd/Polyhedron.h"
 
 namespace Eigen {
 
