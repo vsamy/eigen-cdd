@@ -23,7 +23,7 @@ declare_PID_Package_Dependency(PACKAGE eigen EXTERNAL VERSION 3.3.4)
 declare_PID_Package_Dependency(PACKAGE cdd NATIVE VERSION 0.94)
 
 if(BUILD_AND_RUN_TESTS)
-	declare_PID_Package_Dependency(PACKAGE boost EXTERNAL VERSION 1.64)
+	declare_PID_Package_Dependency(PACKAGE boost EXTERNAL VERSION 1.63.0)
 endif()
 
 build_PID_Package()
