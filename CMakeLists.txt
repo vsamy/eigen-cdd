@@ -6,17 +6,18 @@ include(Package_Definition NO_POLICY_SCOPE)
 PROJECT(eigen-cdd)
 
 declare_PID_Package(	
-			AUTHOR 		vsamy
-			ADDRESS 	git@github.com:vsamy/eigen-cdd.git
-			YEAR 		2017 
-			INSTITUTION	LIRMM
-			MAIL		vincent.samy@lirmm.fr
-			YEAR 		2017 
-			LICENSE 	CeCILL-C
-			DESCRIPTION "Small Eigen Wrapper of cdd. Based on Fukuda's library named [cdd](https://www.inf.ethz.ch/personal/fukudak/cdd_home)"
+			AUTHOR 			vsamy
+			ADDRESS 		git@github.com:vsamy/eigen-cdd.git
+			PUBLIC_ADDRESS	https://github.com/vsamy/eigen-cdd.git
+			YEAR 			2017 
+			INSTITUTION		LIRMM
+			MAIL			vincent.samy@lirmm.fr
+			YEAR 			2017 
+			LICENSE 		CeCILL-C
+			DESCRIPTION 	"Small Eigen Wrapper of cdd. Based on Fukuda's library named [cdd](https://www.inf.ethz.ch/personal/fukudak/cdd_home)"
 )
 
-set_PID_Package_Version(0 5 0)
+set_PID_Package_Version(0 4 1)
 
 #now finding packages
 declare_PID_Package_Dependency(PACKAGE eigen EXTERNAL VERSION 3.3.4)
