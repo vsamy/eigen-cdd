@@ -17,9 +17,9 @@ About authors
 =====================
 
 eigen-cdd has been developped by following authors: 
-+ vsamy (LIRMM)
++ Vincent Samy (LIRMM)
 
-Please contact vsamy (vsamy@outlook.fr) - LIRMM for more information or questions.
+Please contact Vincent Samy (vsamy@outlook.fr) - LIRMM for more information or questions.
 
 
 
