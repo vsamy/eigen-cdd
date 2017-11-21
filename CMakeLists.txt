@@ -11,7 +11,7 @@ declare_PID_Package(
 			PUBLIC_ADDRESS	https://github.com/vsamy/eigen-cdd.git
 			YEAR 			2017 
 			INSTITUTION		LIRMM
-			MAIL			vincent.samy@lirmm.fr
+			MAIL			vsamy@outlook.fr
 			YEAR 			2017 
 			LICENSE 		CeCILL-C
 			DESCRIPTION 	"Small Eigen Wrapper of cdd. Based on Fukuda's library named [cdd](https://www.inf.ethz.ch/personal/fukudak/cdd_home)"

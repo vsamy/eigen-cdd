@@ -11,7 +11,7 @@ The license that applies to the whole package content is **CeCILL-C**. Please lo
 Installation and Usage
 =======================
 
-The procedures for installing the eigen-cdd package and for using its components is based on the [PID](https://gite.lirmm.fr/pid/pid-workspace/wikis/home) build and deployment system called PID. Just follow and read the links to understand how to install, use and call its API and/or applications.
+The procedures for installing the eigen-cdd package and for using its components is based on the [PID](http://pid.lirmm.net/pid-framework/pages/install.html) build and deployment system called PID. Just follow and read the links to understand how to install, use and call its API and/or applications.
 
 About authors
 =====================
@@ -19,7 +19,7 @@ About authors
 eigen-cdd has been developped by following authors: 
 + vsamy (LIRMM)
 
-Please contact vsamy (vincent.samy@lirmm.fr) - LIRMM for more information or questions.
+Please contact vsamy (vsamy@outlook.fr) - LIRMM for more information or questions.
 
 
 
